@@ -10,6 +10,24 @@
     ],
     "require": {},
     "require-dev": {
-        "orchestra/testbench": "^4.6"
+        "orchestra/testbench": "^4.6",
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "nbmod\\swap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "nbmod\\swap\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "nbmod\\swap\\SwapBaseServiceProvider"
+            ]
+        }
     }
 }
