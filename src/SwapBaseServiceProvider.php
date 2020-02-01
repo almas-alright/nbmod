@@ -8,7 +8,11 @@ use Illuminate\Support\ServiceProvider;
 
 class SwapBaseServiceProvider extends ServiceProvider
 {
-    public function boot(){}
-    public function register(){}
+    public function boot(){
+
+    }
+    public function register(){
+
+    }
 
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace nbmod\swap;
+namespace nbmod\swap\Sell;
 
-use App\Models\Admin;
+use nbmod\swap\Admin;
 use App\ProductBrand;
 use App\ProductCategory;
 use App\SeriesOfBrand;

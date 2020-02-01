@@ -1,6 +1,6 @@
 <?php
 
-namespace nbmod\swap;
+namespace nbmod\swap\Sell;
 
 use Illuminate\Database\Eloquent\Model;
 
