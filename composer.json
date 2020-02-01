@@ -1,0 +1,15 @@
+{
+    "name": "nbmod/swap",
+    "description": "all nb models to SWAP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alright",
+            "email": "kutsnalmas@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.6"
+    }
+}
