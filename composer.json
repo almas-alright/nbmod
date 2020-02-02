@@ -8,7 +8,9 @@
             "email": "kutsnalmas@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "intervention/image": "^2.5"
+    },
     "require-dev": {
         "orchestra/testbench": "^4.6",
         "phpunit/phpunit": "^8"

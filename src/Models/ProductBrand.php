@@ -2,7 +2,7 @@
 
 namespace nbmod\swap\Models;
 
-use nbmod\swap\Models\Helpers\S3;
+use nbmod\swap\S3;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

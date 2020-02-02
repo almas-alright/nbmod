@@ -2,10 +2,11 @@
 
 namespace nbmod\swap\Models;
 
-use nbmod\swap\Models\Helpers\S3;
+
 use Illuminate\Database\Eloquent\Model;
 use nbmod\swap\Models\ProductBrand;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use nbmod\swap\S3;
 
 class ProductCategory extends Model
 {
