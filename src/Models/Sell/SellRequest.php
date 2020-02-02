@@ -10,7 +10,7 @@ class SellRequest extends Model
 {
     use SoftDeletes;
     public $timestamps = false;
-    protected $nbmod\swap\Modelsends = ['qa_user'];
+    protected $appends = ['qa_user'];
     protected $fillable =
         [
             'model_product_id',

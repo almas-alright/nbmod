@@ -9,7 +9,7 @@ class ModelProductVariant extends Model
 {
     public $timestamps = false;
     protected $fillable = ['product_id', 'variant_id', 'variant_name', 'variant_value'];
-    protected $nbmod\swap\Modelsends = ['key_value'];
+    protected $appends = ['key_value'];
     protected $casts = [
         'variant_value' => 'array'
     ];

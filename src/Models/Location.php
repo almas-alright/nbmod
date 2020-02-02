@@ -15,7 +15,7 @@ class Location extends Model
     public $timestamps = false;
 
     protected $table = 'locations';
-    protected $nbmod\swap\Modelsends = ['sell_method'];
+    protected $appends = ['sell_method'];
     protected $fillable = [
         'name', 'parent_id', 'bangla_name', 'active'
     ];

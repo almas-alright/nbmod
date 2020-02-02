@@ -14,7 +14,7 @@ class ModelProducts extends Model
     use SoftDeletes;
     public $timestamps = false;
 
-    protected $nbmod\swap\Modelsends = ['path_name', 'image_name'];
+    protected $appends = ['path_name', 'image_name'];
 
 //    protected $attributes = ['path', 'image'];
     public function metas()
