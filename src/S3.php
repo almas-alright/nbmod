@@ -7,7 +7,6 @@ namespace nbmod\swap;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use function foo\func;
 
 class S3
 {

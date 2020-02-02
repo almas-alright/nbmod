@@ -2,7 +2,7 @@
 
 namespace nbmod\swap\Models;
 
-use nbmod\swap\S3;
+//use nbmod\swap\S3;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -14,15 +14,15 @@ class ProductBrand extends Model
     public $fillable = ['title', 'slug', 'description', 'logo', 'banner'];
     protected $hidden = ['pivot'];
 
-    public function getLogoAttribute($value){
-        if($value != NULL && $value != ''){
-            return S3::getFile($value);
-        }
-    }
-
-    public function getBannerAttribute($value){
-        if($value != NULL && $value != ''){
-            return S3::getFile($value);
-        }
-    }
+//    public function getLogoAttribute($value){
+//        if($value != NULL && $value != ''){
+//            return S3::getFile($value);
+//        }
+//    }
+//
+//    public function getBannerAttribute($value){
+//        if($value != NULL && $value != ''){
+//            return S3::getFile($value);
+//        }
+//    }
 }

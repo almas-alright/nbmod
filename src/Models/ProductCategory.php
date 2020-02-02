@@ -6,7 +6,7 @@ namespace nbmod\swap\Models;
 use Illuminate\Database\Eloquent\Model;
 use nbmod\swap\Models\ProductBrand;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use nbmod\swap\S3;
+//use nbmod\swap\S3;
 
 class ProductCategory extends Model
 {
@@ -30,15 +30,15 @@ class ProductCategory extends Model
         return $this->belongsToMany(ProductBrand::class, 'category_brands');
     }
 
-    public function getImageAttribute($value){
-        if($value != NULL && $value != ''){
-            return S3::getFile($value);
-        }
-    }
-
-    public function getBannerAttribute($value){
-        if($value != NULL && $value != ''){
-            return S3::getFile($value);
-        }
-    }
+//    public function getImageAttribute($value){
+//        if($value != NULL && $value != ''){
+//            return S3::getFile($value);
+//        }
+//    }
+//
+//    public function getBannerAttribute($value){
+//        if($value != NULL && $value != ''){
+//            return S3::getFile($value);
+//        }
+//    }
 }
