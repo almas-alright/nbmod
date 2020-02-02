@@ -9,7 +9,9 @@
         }
     ],
     "require": {
-        "intervention/image": "^2.5"
+        "intervention/image": "^2.5",
+        "league/flysystem": "^1.0",
+        "league/flysystem-aws-s3-v3": "^1.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.6",
