@@ -1,13 +1,12 @@
 <?php
 
-namespace nbmod\swap\Models\User;
+namespace nbmod\swap\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class UserAddress extends Model
+class SpecialOffer extends Model
 {
     use SoftDeletes;
     public $timestamps = false;
-
 }

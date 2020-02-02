@@ -1,11 +1,11 @@
 <?php
 
-namespace nbmod\swap\Vendor;
+namespace nbmod\swap\Models\Vendor;
 
-use App\ProductCategory;
-use App\Location;
-use nbmod\swap\Vendor\Vendor;
-use nbmod\swap\Vendor\Nature;
+use nbmod\swap\Models\ProductCategory;
+use nbmod\swap\Models\Location;
+use nbmod\swap\Models\Vendor\Vendor;
+use nbmod\swap\Models\Vendor\Nature;
 use Illuminate\Database\Eloquent\Model;
 
 class Shop extends Model

@@ -1,8 +1,8 @@
 <?php
 
-namespace nbmod\swap\Sell;
+namespace nbmod\swap\Models\Sell;
 
-use App\User;
+use nbmod\swap\Models\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -10,7 +10,7 @@ class SellRequest extends Model
 {
     use SoftDeletes;
     public $timestamps = false;
-    protected $appends = ['qa_user'];
+    protected $nbmod\swap\Modelsends = ['qa_user'];
     protected $fillable =
         [
             'model_product_id',

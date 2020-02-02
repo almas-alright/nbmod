@@ -1,11 +1,11 @@
 <?php
 
-namespace nbmod\swap\Sell;
+namespace nbmod\swap\Models\Sell;
 
-use nbmod\swap\Admin;
-use App\ProductBrand;
-use App\ProductCategory;
-use App\SeriesOfBrand;
+use nbmod\swap\Models\Admin;
+use nbmod\swap\Models\ProductBrand;
+use nbmod\swap\Models\ProductCategory;
+use nbmod\swap\Models\SeriesOfBrand;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -14,7 +14,7 @@ class ModelProducts extends Model
     use SoftDeletes;
     public $timestamps = false;
 
-    protected $appends = ['path_name', 'image_name'];
+    protected $nbmod\swap\Modelsends = ['path_name', 'image_name'];
 
 //    protected $attributes = ['path', 'image'];
     public function metas()

@@ -1,6 +1,6 @@
 <?php
 
-namespace nbmod\swap\Sell;
+namespace nbmod\swap\Models\Sell;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
