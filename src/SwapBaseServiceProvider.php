@@ -12,7 +12,9 @@ class SwapBaseServiceProvider extends ServiceProvider
 
     }
     public function register(){
-
+        if (file_exists($file = app_path('src/S3.php'))) {
+            require $file;
+        }
     }
 
 }
