@@ -1,8 +1,8 @@
 <?php
 
-namespace nbmod\swap\Models;
+namespace Nbmod\Swap\Models;
 
-//use nbmod\swap\S3;
+//use Nbmod\Swap\S3;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

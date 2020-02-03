@@ -1,6 +1,6 @@
 <?php
 
-namespace nbmod\swap\Models\User;
+namespace Nbmod\Swap\Models\User;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace nbmod\swap\Test;
+namespace Nbmod\Swap\Test;
 
 
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace nbmod\swap\Models\Sell;
+namespace Nbmod\Swap\Models\Sell;
 
-use nbmod\swap\Models\Variant;
+use Nbmod\Swap\Models\Variant;
 use Illuminate\Database\Eloquent\Model;
 
 class ModelProductVariant extends Model

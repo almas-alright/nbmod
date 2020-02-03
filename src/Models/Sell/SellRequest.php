@@ -1,8 +1,8 @@
 <?php
 
-namespace nbmod\swap\Models\Sell;
+namespace Nbmod\Swap\Models\Sell;
 
-use nbmod\swap\Models\User;
+use Nbmod\Swap\Models\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

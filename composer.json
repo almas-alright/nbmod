@@ -19,18 +19,18 @@
     },
     "autoload": {
         "psr-4": {
-            "nbmod\\swap\\": "src/"
+            "Nbmod\\Swap\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "nbmod\\swap\\Tests\\": "tests/"
+            "Nbmod\\Swap\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "nbmod\\swap\\SwapBaseServiceProvider"
+                "Nbmod\\Swap\\SwapBaseServiceProvider"
             ]
         }
     }

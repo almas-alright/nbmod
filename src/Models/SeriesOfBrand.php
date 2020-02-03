@@ -1,8 +1,8 @@
 <?php
 
-namespace nbmod\swap\Models;
+namespace Nbmod\Swap\Models;
 
-use nbmod\swap\Models\Models\Sell\ModelProducts;
+use Nbmod\Swap\Models\Models\Sell\ModelProducts;
 use Illuminate\Database\Eloquent\Model;
 
 class SeriesOfBrand extends Model

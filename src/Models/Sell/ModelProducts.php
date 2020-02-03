@@ -1,11 +1,11 @@
 <?php
 
-namespace nbmod\swap\Models\Sell;
+namespace Nbmod\Swap\Models\Sell;
 
-use nbmod\swap\Models\Admin;
-use nbmod\swap\Models\ProductBrand;
-use nbmod\swap\Models\ProductCategory;
-use nbmod\swap\Models\SeriesOfBrand;
+use Nbmod\Swap\Models\Admin;
+use Nbmod\Swap\Models\ProductBrand;
+use Nbmod\Swap\Models\ProductCategory;
+use Nbmod\Swap\Models\SeriesOfBrand;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

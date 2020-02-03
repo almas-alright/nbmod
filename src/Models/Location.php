@@ -1,9 +1,9 @@
 <?php
 
-namespace nbmod\swap\Models;
+namespace Nbmod\Swap\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use nbmod\swap\Models\LocationSellMethod;
+use Nbmod\Swap\Models\LocationSellMethod;
 
 class Location extends Model
 {
@@ -21,7 +21,7 @@ class Location extends Model
     ];
 
     public function parent() {
-        return $this->belongsTo('nbmod\swap\Models\Location','parent_id');
+        return $this->belongsTo('Nbmod\Swap\Models\Location','parent_id');
     }
 
     public static function getChildOf($parent = 0){

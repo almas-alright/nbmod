@@ -1,12 +1,12 @@
 <?php
 
-namespace nbmod\swap\Models;
+namespace Nbmod\Swap\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
-use nbmod\swap\Models\ProductBrand;
+use Nbmod\Swap\Models\ProductBrand;
 use Illuminate\Database\Eloquent\SoftDeletes;
-//use nbmod\swap\S3;
+//use Nbmod\Swap\S3;
 
 class ProductCategory extends Model
 {
@@ -20,7 +20,7 @@ class ProductCategory extends Model
         return $this->hasMany('ProductCategory','parent_id');
     }
     public function parent() {
-        return $this->belongsTo('nbmod\swap\Models\ProductCategory','parent_id');
+        return $this->belongsTo('Nbmod\Swap\Models\ProductCategory','parent_id');
     }
     public static function categories($id){
         return static::whereParentId($id)->get();
