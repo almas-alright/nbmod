@@ -25,5 +25,8 @@ class Shop extends Model
     public function shoparea(){
         return $this->hasOne(Location::class, 'id', 'area_id');
     }
+    public function users(){
+        return $this->belongsToMany(Vendor::class,'shop_users');
+    }
 
 }
